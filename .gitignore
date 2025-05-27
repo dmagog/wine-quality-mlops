@@ -5,3 +5,5 @@ __pycache__/
 .dvc/
 artifacts/
 data/
+.dvc/config.local
+/winequality-red.csv
