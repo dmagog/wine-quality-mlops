@@ -3,7 +3,8 @@ __pycache__/
 .env
 *.env
 .dvc/
-artifacts/
+artifacts/*.pkl
+!artifacts/*.dvc
 data/
 .dvc/config.local
 /winequality-red.csv
