@@ -23,6 +23,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install fastapi uvicorn httpx pytest ruff
 
     - name: 🔍 Run linter (ruff)
       run: |
