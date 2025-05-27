@@ -25,6 +25,14 @@ jobs:
         pip install -r requirements.txt
         pip install dvc[s3] fastapi uvicorn joblib pandas requests
 
+    - name: 🔍 Run linter (ruff)
+      run: |
+        ruff check .
+
+    - name: 🧪 Run API tests
+      run: |
+        pytest tests    
+
     - name: 📦 DVC pull (model)
       run: |
         dvc pull artifacts/best_model.pkl.dvc || echo "⚠️ DVC pull пропущен в CI"
