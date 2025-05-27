@@ -29,8 +29,10 @@ jobs:
         ruff check .
 
     - name: 🧪 Run API tests
+      env:
+        PYTHONPATH: .
       run: |
-        pytest tests    
+        pytest tests   
 
     - name: 📦 DVC pull (model)
       run: |
