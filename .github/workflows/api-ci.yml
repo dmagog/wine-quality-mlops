@@ -46,7 +46,7 @@ jobs:
       run: |
         ruff check .
 
-    - name: 🧪 Run API tests
+    - name: 🧪 Run API tests 
       env:
         PYTHONPATH: .
       run: |
