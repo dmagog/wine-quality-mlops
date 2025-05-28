@@ -17049,3 +17049,1074 @@ ImportError: cannot import name 'Dataset' from 'mlflow.models' (/home/airflow/.l
 [2025-05-28T10:44:55.026+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:44:55.025+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2025-05-28T10:44:55.045+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:44:55.045+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
 [2025-05-28T10:44:55.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.987 seconds
+[2025-05-28T10:45:05.303+0000] {processor.py:161} INFO - Started process (PID=6183) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:05.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:45:05.304+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:05.304+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:06.306+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:06.334+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:06.333+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:45:06.369+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:06.368+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:45:06.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.118 seconds
+[2025-05-28T10:45:16.601+0000] {processor.py:161} INFO - Started process (PID=6227) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:16.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:45:16.607+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:16.607+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:17.893+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:18.148+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:18.142+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:45:18.380+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:18.375+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:45:18.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.896 seconds
+[2025-05-28T10:45:29.230+0000] {processor.py:161} INFO - Started process (PID=6279) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:29.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:45:29.238+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:29.237+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:30.304+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:30.327+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:30.327+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:45:30.346+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:30.346+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:45:30.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.140 seconds
+[2025-05-28T10:45:40.624+0000] {processor.py:161} INFO - Started process (PID=6325) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:40.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:45:40.626+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:40.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:41.338+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:41.351+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:41.351+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:45:41.365+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:41.365+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:45:41.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.752 seconds
+[2025-05-28T10:45:52.070+0000] {processor.py:161} INFO - Started process (PID=6369) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:52.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:45:52.071+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:52.071+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:52.674+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:45:52.699+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:52.699+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:45:52.714+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:45:52.714+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:45:52.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.658 seconds
+[2025-05-28T10:46:02.953+0000] {processor.py:161} INFO - Started process (PID=6413) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:02.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:46:02.954+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:02.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:03.652+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:03.666+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:03.666+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:46:03.678+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:03.678+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:46:03.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.736 seconds
+[2025-05-28T10:46:13.914+0000] {processor.py:161} INFO - Started process (PID=6457) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:13.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:46:13.915+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:13.915+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:14.629+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:14.649+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:14.649+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:46:14.662+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:14.662+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:46:14.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.759 seconds
+[2025-05-28T10:46:24.849+0000] {processor.py:161} INFO - Started process (PID=6501) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:24.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:46:24.852+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:24.851+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:27.494+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:27.545+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:27.544+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:46:27.584+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:27.583+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:46:27.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.800 seconds
+[2025-05-28T10:46:38.667+0000] {processor.py:161} INFO - Started process (PID=6545) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:38.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:46:38.675+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:38.674+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:39.650+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:39.674+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:39.674+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:46:39.690+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:39.690+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:46:39.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.043 seconds
+[2025-05-28T10:46:50.633+0000] {processor.py:161} INFO - Started process (PID=6592) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:50.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:46:50.639+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:50.639+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:51.568+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:46:51.581+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:51.581+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:46:51.592+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:46:51.592+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:46:51.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.972 seconds
+[2025-05-28T10:47:01.990+0000] {processor.py:161} INFO - Started process (PID=6638) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:01.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:47:01.993+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:01.992+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:03.170+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:03.208+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:03.207+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:47:03.229+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:03.229+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:47:03.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.268 seconds
+[2025-05-28T10:47:13.438+0000] {processor.py:161} INFO - Started process (PID=6682) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:13.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:47:13.440+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:13.440+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:14.278+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:14.291+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:14.291+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:47:14.301+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:14.301+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:47:14.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.873 seconds
+[2025-05-28T10:47:24.790+0000] {processor.py:161} INFO - Started process (PID=6726) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:24.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:47:24.794+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:24.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:25.992+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:26.022+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:26.021+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:47:26.038+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:26.038+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:47:26.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.267 seconds
+[2025-05-28T10:47:36.362+0000] {processor.py:161} INFO - Started process (PID=6770) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:36.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:47:36.371+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:36.370+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:38.742+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:38.779+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:38.779+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:47:38.803+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:38.802+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:47:38.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.470 seconds
+[2025-05-28T10:47:49.701+0000] {processor.py:161} INFO - Started process (PID=6814) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:49.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:47:49.711+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:49.710+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:51.162+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:47:51.204+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:51.204+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:47:51.236+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:47:51.236+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:47:51.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.585 seconds
+[2025-05-28T10:48:01.389+0000] {processor.py:161} INFO - Started process (PID=6858) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:01.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:48:01.394+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:01.393+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:02.779+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:02.981+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:02.979+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:48:03.027+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:03.027+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:48:03.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.683 seconds
+[2025-05-28T10:48:13.268+0000] {processor.py:161} INFO - Started process (PID=6902) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:13.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:48:13.273+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:13.272+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:14.442+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:14.465+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:14.464+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:48:14.492+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:14.492+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:48:14.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.257 seconds
+[2025-05-28T10:48:24.619+0000] {processor.py:161} INFO - Started process (PID=6946) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:24.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:48:24.626+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:24.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:25.729+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:25.755+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:25.754+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:48:25.773+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:25.773+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:48:25.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.183 seconds
+[2025-05-28T10:48:36.077+0000] {processor.py:161} INFO - Started process (PID=6993) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:36.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:48:36.081+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:36.080+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:37.496+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:37.522+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:37.521+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:48:37.539+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:37.539+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:48:37.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.506 seconds
+[2025-05-28T10:48:47.961+0000] {processor.py:161} INFO - Started process (PID=7039) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:47.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:48:47.964+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:47.963+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:50.130+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:48:50.221+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:50.219+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:48:50.253+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:48:50.253+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:48:50.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.322 seconds
+[2025-05-28T10:49:00.558+0000] {processor.py:161} INFO - Started process (PID=7083) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:00.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:49:00.567+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:00.566+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:02.457+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:02.553+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:02.552+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:49:02.622+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:02.622+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:49:02.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.149 seconds
+[2025-05-28T10:49:13.023+0000] {processor.py:161} INFO - Started process (PID=7127) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:13.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:49:13.036+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:13.035+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:14.109+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:14.134+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:14.134+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:49:14.154+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:14.154+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:49:14.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.163 seconds
+[2025-05-28T10:49:24.334+0000] {processor.py:161} INFO - Started process (PID=7171) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:24.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:49:24.337+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:24.337+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:25.388+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:25.411+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:25.411+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:49:25.430+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:25.430+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:49:25.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.119 seconds
+[2025-05-28T10:49:35.639+0000] {processor.py:161} INFO - Started process (PID=7215) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:35.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:49:35.645+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:35.645+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:36.631+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:36.652+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:36.652+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:49:36.671+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:36.670+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:49:36.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.052 seconds
+[2025-05-28T10:49:46.859+0000] {processor.py:161} INFO - Started process (PID=7259) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:46.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:49:46.861+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:46.861+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:48.139+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:48.172+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:48.171+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:49:48.196+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:48.196+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:49:48.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.387 seconds
+[2025-05-28T10:49:59.350+0000] {processor.py:161} INFO - Started process (PID=7311) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:49:59.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:49:59.354+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:49:59.353+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:00.314+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:00.341+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:00.340+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:50:00.394+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:00.393+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:50:00.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.073 seconds
+[2025-05-28T10:50:10.593+0000] {processor.py:161} INFO - Started process (PID=7355) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:10.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:50:10.600+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:10.600+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:11.506+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:11.524+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:11.524+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:50:11.538+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:11.538+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:50:11.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.956 seconds
+[2025-05-28T10:50:21.745+0000] {processor.py:161} INFO - Started process (PID=7399) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:21.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:50:21.749+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:21.749+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:22.674+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:22.691+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:22.690+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:50:22.721+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:22.720+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:50:22.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.014 seconds
+[2025-05-28T10:50:33.086+0000] {processor.py:161} INFO - Started process (PID=7443) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:33.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:50:33.089+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:33.088+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:35.687+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:35.715+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:35.714+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:50:35.730+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:35.730+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:50:35.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.747 seconds
+[2025-05-28T10:50:46.391+0000] {processor.py:161} INFO - Started process (PID=7497) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:46.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:50:46.395+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:46.395+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:47.614+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:47.648+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:47.648+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:50:47.685+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:47.684+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:50:47.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.336 seconds
+[2025-05-28T10:50:57.839+0000] {processor.py:161} INFO - Started process (PID=7541) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:57.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:50:57.843+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:57.843+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:58.944+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:50:58.975+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:58.974+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:50:58.988+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:50:58.988+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:50:59.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.168 seconds
+[2025-05-28T10:51:09.411+0000] {processor.py:161} INFO - Started process (PID=7585) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:09.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:51:09.413+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:09.413+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:10.259+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:10.291+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:10.290+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:51:10.319+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:10.319+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:51:10.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.926 seconds
+[2025-05-28T10:51:20.620+0000] {processor.py:161} INFO - Started process (PID=7629) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:20.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:51:20.622+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:20.622+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:21.866+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:21.910+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:21.909+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:51:21.925+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:21.925+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:51:21.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.327 seconds
+[2025-05-28T10:51:32.154+0000] {processor.py:161} INFO - Started process (PID=7676) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:32.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:51:32.155+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:32.155+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:32.976+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:32.992+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:32.991+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:51:33.006+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:33.006+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:51:33.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.869 seconds
+[2025-05-28T10:51:43.900+0000] {processor.py:161} INFO - Started process (PID=7722) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:43.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:51:43.903+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:43.902+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:44.903+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:44.933+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:44.932+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:51:44.947+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:44.947+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:51:44.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.078 seconds
+[2025-05-28T10:51:55.073+0000] {processor.py:161} INFO - Started process (PID=7766) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:55.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:51:55.079+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:55.079+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:56.148+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:51:56.178+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:56.177+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:51:56.196+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:51:56.196+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:51:56.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.146 seconds
+[2025-05-28T10:52:06.482+0000] {processor.py:161} INFO - Started process (PID=7810) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:06.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:52:06.484+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:06.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:07.330+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:07.354+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:07.353+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:52:07.375+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:07.375+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:52:07.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.916 seconds
+[2025-05-28T10:52:17.542+0000] {processor.py:161} INFO - Started process (PID=7854) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:17.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:52:17.545+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:17.545+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:18.785+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:18.813+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:18.812+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:52:18.832+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:18.832+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:52:18.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.317 seconds
+[2025-05-28T10:52:28.988+0000] {processor.py:161} INFO - Started process (PID=7898) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:28.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:52:28.992+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:28.992+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:29.944+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:29.988+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:29.987+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:52:30.014+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:30.014+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:52:30.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.058 seconds
+[2025-05-28T10:52:40.220+0000] {processor.py:161} INFO - Started process (PID=7942) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:40.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:52:40.225+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:40.225+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:41.379+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:41.405+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:41.404+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:52:41.435+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:41.435+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:52:41.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.241 seconds
+[2025-05-28T10:52:51.729+0000] {processor.py:161} INFO - Started process (PID=7986) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:51.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:52:51.733+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:51.732+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:52.974+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:52:52.997+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:52.996+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:52:53.062+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:52:53.061+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:52:53.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.362 seconds
+[2025-05-28T10:53:03.242+0000] {processor.py:161} INFO - Started process (PID=8030) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:03.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:53:03.247+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:03.246+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:04.513+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:04.550+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:04.550+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:53:04.577+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:04.576+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:53:04.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.382 seconds
+[2025-05-28T10:53:14.879+0000] {processor.py:161} INFO - Started process (PID=8074) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:14.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:53:14.882+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:14.882+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:15.920+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:15.948+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:15.948+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:53:15.969+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:15.968+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:53:15.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.114 seconds
+[2025-05-28T10:53:26.080+0000] {processor.py:161} INFO - Started process (PID=8118) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:26.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:53:26.084+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:26.083+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:27.244+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:27.303+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:27.302+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:53:27.354+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:27.354+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:53:27.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.311 seconds
+[2025-05-28T10:53:37.652+0000] {processor.py:161} INFO - Started process (PID=8165) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:37.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:53:37.658+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:37.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:38.921+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:38.965+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:38.964+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:53:39.003+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:39.001+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:53:39.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.396 seconds
+[2025-05-28T10:53:50.063+0000] {processor.py:161} INFO - Started process (PID=8211) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:50.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:53:50.074+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:50.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:51.491+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:53:51.716+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:51.713+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:53:51.789+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:53:51.789+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:53:51.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.762 seconds
+[2025-05-28T10:54:01.986+0000] {processor.py:161} INFO - Started process (PID=8255) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:01.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:54:01.988+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:01.988+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:03.050+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:03.075+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:03.075+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:54:03.092+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:03.092+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:54:03.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.128 seconds
+[2025-05-28T10:54:13.531+0000] {processor.py:161} INFO - Started process (PID=8299) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:13.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:54:13.535+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:13.534+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:15.328+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:15.365+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:15.365+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:54:15.384+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:15.384+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:54:15.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.918 seconds
+[2025-05-28T10:54:25.785+0000] {processor.py:161} INFO - Started process (PID=8343) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:25.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:54:25.789+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:25.788+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:26.842+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:26.866+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:26.866+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:54:26.885+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:26.885+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:54:26.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.124 seconds
+[2025-05-28T10:54:37.123+0000] {processor.py:161} INFO - Started process (PID=8387) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:37.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:54:37.127+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:37.127+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:38.426+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:38.467+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:38.466+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:54:38.498+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:38.498+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:54:38.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.402 seconds
+[2025-05-28T10:54:49.331+0000] {processor.py:161} INFO - Started process (PID=8431) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:49.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:54:49.348+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:49.347+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:51.189+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:54:51.238+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:51.237+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:54:51.268+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:54:51.268+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:54:51.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.020 seconds
+[2025-05-28T10:55:01.763+0000] {processor.py:161} INFO - Started process (PID=8478) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:01.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:55:01.774+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:01.773+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:03.822+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:03.860+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:03.859+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:55:03.889+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:03.888+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:55:03.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.151 seconds
+[2025-05-28T10:55:14.047+0000] {processor.py:161} INFO - Started process (PID=8524) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:14.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:55:14.049+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:14.049+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:15.861+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:15.945+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:15.945+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:55:15.984+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:15.984+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:55:16.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.973 seconds
+[2025-05-28T10:55:26.602+0000] {processor.py:161} INFO - Started process (PID=8568) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:26.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:55:26.609+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:26.608+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:27.881+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:27.928+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:27.927+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:55:27.966+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:27.966+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:55:27.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.398 seconds
+[2025-05-28T10:55:38.431+0000] {processor.py:161} INFO - Started process (PID=8612) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:38.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:55:38.436+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:38.435+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:39.872+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:39.904+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:39.902+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:55:39.927+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:39.927+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:55:39.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.547 seconds
+[2025-05-28T10:55:50.539+0000] {processor.py:161} INFO - Started process (PID=8656) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:50.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:55:50.549+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:50.549+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:51.951+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:55:51.993+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:51.993+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:55:52.009+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:55:52.009+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:55:52.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.500 seconds
+[2025-05-28T10:56:02.711+0000] {processor.py:161} INFO - Started process (PID=8700) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:02.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:56:02.715+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:02.715+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:05.533+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:05.612+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:05.611+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:56:05.651+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:05.651+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:56:05.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 3.009 seconds
+[2025-05-28T10:56:16.252+0000] {processor.py:161} INFO - Started process (PID=8744) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:16.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:56:16.256+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:16.256+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:17.322+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:17.356+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:17.355+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:56:17.378+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:17.378+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:56:17.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.152 seconds
+[2025-05-28T10:56:28.139+0000] {processor.py:161} INFO - Started process (PID=8791) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:28.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:56:28.144+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:28.143+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:30.544+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:30.568+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:30.567+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:56:30.582+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:30.582+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:56:30.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.471 seconds
+[2025-05-28T10:56:41.196+0000] {processor.py:161} INFO - Started process (PID=8837) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:41.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:56:41.205+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:41.203+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:42.469+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:42.490+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:42.490+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:56:42.507+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:42.507+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:56:42.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.347 seconds
+[2025-05-28T10:56:52.818+0000] {processor.py:161} INFO - Started process (PID=8881) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:52.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:56:52.822+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:52.822+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:53.884+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:56:53.913+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:53.912+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:56:53.934+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:56:53.934+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:56:53.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.140 seconds
+[2025-05-28T10:57:04.140+0000] {processor.py:161} INFO - Started process (PID=8925) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:04.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:57:04.141+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:04.141+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:05.237+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:05.265+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:05.264+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:57:05.282+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:05.282+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:57:05.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.147 seconds
+[2025-05-28T10:57:15.552+0000] {processor.py:161} INFO - Started process (PID=8969) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:15.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:57:15.560+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:15.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:16.670+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:16.684+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:16.684+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:57:16.700+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:16.699+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:57:16.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.175 seconds
+[2025-05-28T10:57:26.951+0000] {processor.py:161} INFO - Started process (PID=9013) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:26.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:57:26.954+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:26.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:28.364+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:28.405+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:28.404+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:57:28.426+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:28.426+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:57:28.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.513 seconds
+[2025-05-28T10:57:39.206+0000] {processor.py:161} INFO - Started process (PID=9057) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:39.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:57:39.213+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:39.212+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:40.252+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:40.272+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:40.272+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:57:40.285+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:40.285+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:57:40.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.103 seconds
+[2025-05-28T10:57:50.475+0000] {processor.py:161} INFO - Started process (PID=9101) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:50.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:57:50.482+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:50.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:51.503+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:57:51.521+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:51.521+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:57:51.534+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:57:51.533+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:57:51.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.078 seconds
+[2025-05-28T10:58:02.510+0000] {processor.py:161} INFO - Started process (PID=9153) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:02.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:58:02.512+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:02.511+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:03.564+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:03.588+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:03.588+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:58:03.599+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:03.599+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:58:03.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.107 seconds
+[2025-05-28T10:58:14.020+0000] {processor.py:161} INFO - Started process (PID=9207) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:14.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:58:14.023+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:14.022+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:14.841+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:14.857+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:14.857+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:58:14.869+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:14.869+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:58:14.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.861 seconds
+[2025-05-28T10:58:25.457+0000] {processor.py:161} INFO - Started process (PID=9251) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:25.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:58:25.459+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:25.458+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:26.256+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:26.272+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:26.272+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:58:26.286+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:26.286+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:58:26.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.841 seconds
+[2025-05-28T10:58:36.672+0000] {processor.py:161} INFO - Started process (PID=9295) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:36.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:58:36.674+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:36.674+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:38.270+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:38.328+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:38.328+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:58:38.369+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:38.369+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:58:38.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.739 seconds
+[2025-05-28T10:58:48.981+0000] {processor.py:161} INFO - Started process (PID=9339) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:48.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:58:48.991+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:48.990+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:50.480+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:58:50.505+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:50.505+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:58:50.520+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:58:50.519+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:58:50.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.567 seconds
+[2025-05-28T10:59:01.593+0000] {processor.py:161} INFO - Started process (PID=9383) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:01.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:59:01.603+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:01.602+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:03.160+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:03.192+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:03.192+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:59:03.215+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:03.214+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:59:03.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.677 seconds
+[2025-05-28T10:59:13.569+0000] {processor.py:161} INFO - Started process (PID=9427) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:13.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:59:13.573+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:13.572+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:14.629+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:14.652+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:14.651+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:59:14.665+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:14.664+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:59:14.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.118 seconds
+[2025-05-28T10:59:24.866+0000] {processor.py:161} INFO - Started process (PID=9471) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:24.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:59:24.869+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:24.869+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:25.843+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:25.867+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:25.866+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:59:25.880+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:25.879+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:59:25.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.037 seconds
+[2025-05-28T10:59:36.108+0000] {processor.py:161} INFO - Started process (PID=9515) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:36.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:59:36.111+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:36.111+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:37.180+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:37.226+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:37.226+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:59:37.255+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:37.254+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:59:37.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.173 seconds
+[2025-05-28T10:59:47.385+0000] {processor.py:161} INFO - Started process (PID=9559) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:47.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T10:59:47.394+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:47.393+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:51.900+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T10:59:51.991+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:51.990+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T10:59:52.030+0000] {logging_mixin.py:188} INFO - [2025-05-28T10:59:52.030+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T10:59:52.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.676 seconds
+[2025-05-28T11:00:02.464+0000] {processor.py:161} INFO - Started process (PID=9606) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:02.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:00:02.466+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:02.466+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:04.127+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:04.171+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:04.170+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:00:04.212+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:04.211+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:00:04.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.776 seconds
+[2025-05-28T11:00:14.877+0000] {processor.py:161} INFO - Started process (PID=9652) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:14.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:00:14.885+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:14.884+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:16.196+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:16.234+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:16.233+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:00:16.274+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:16.274+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:00:16.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.427 seconds
+[2025-05-28T11:00:26.482+0000] {processor.py:161} INFO - Started process (PID=9696) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:26.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:00:26.484+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:26.483+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:27.532+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:27.553+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:27.553+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:00:27.571+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:27.571+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:00:27.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.112 seconds
+[2025-05-28T11:00:37.829+0000] {processor.py:161} INFO - Started process (PID=9740) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:37.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:00:37.835+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:37.834+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:39.525+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:39.559+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:39.559+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:00:39.579+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:39.578+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:00:39.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.777 seconds
+[2025-05-28T11:00:50.262+0000] {processor.py:161} INFO - Started process (PID=9784) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:50.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:00:50.272+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:50.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:52.746+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:00:52.859+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:52.858+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:00:52.905+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:00:52.905+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:00:52.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.684 seconds
+[2025-05-28T11:01:03.588+0000] {processor.py:161} INFO - Started process (PID=9828) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:03.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:01:03.596+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:03.594+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:04.762+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:04.798+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:04.798+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:01:04.814+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:04.813+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:01:04.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.263 seconds
+[2025-05-28T11:01:15.813+0000] {processor.py:161} INFO - Started process (PID=9880) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:15.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:01:15.815+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:15.814+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:16.903+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:16.946+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:16.946+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:01:17.010+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:17.010+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:01:17.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.223 seconds
+[2025-05-28T11:01:27.265+0000] {processor.py:161} INFO - Started process (PID=9924) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:27.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:01:27.267+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:27.266+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:28.610+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:28.661+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:28.659+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:01:28.687+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:28.687+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:01:28.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.445 seconds
+[2025-05-28T11:01:39.292+0000] {processor.py:161} INFO - Started process (PID=9978) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:39.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:01:39.294+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:39.293+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:39.974+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:39.994+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:39.993+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:01:40.008+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:40.008+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:01:40.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.731 seconds
+[2025-05-28T11:01:50.236+0000] {processor.py:161} INFO - Started process (PID=10020) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:50.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:01:50.249+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:50.246+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:51.568+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:01:51.611+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:51.611+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:01:51.642+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:01:51.641+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:01:51.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.448 seconds
+[2025-05-28T11:02:01.973+0000] {processor.py:161} INFO - Started process (PID=10066) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:01.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:02:01.979+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:01.977+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:02.661+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:02.673+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:02.673+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:02:02.683+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:02.683+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:02:02.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.720 seconds
+[2025-05-28T11:02:13.477+0000] {processor.py:161} INFO - Started process (PID=10110) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:13.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:02:13.480+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:13.479+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:14.245+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:14.258+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:14.258+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:02:14.284+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:14.284+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:02:14.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.825 seconds
+[2025-05-28T11:02:24.532+0000] {processor.py:161} INFO - Started process (PID=10154) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:24.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:02:24.537+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:24.536+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:25.231+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:25.246+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:25.246+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:02:25.256+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:25.256+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:02:25.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.740 seconds
+[2025-05-28T11:02:35.523+0000] {processor.py:161} INFO - Started process (PID=10198) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:35.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:02:35.524+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:35.524+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:36.299+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:36.333+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:36.332+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:02:36.352+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:36.352+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:02:36.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.848 seconds
+[2025-05-28T11:02:46.775+0000] {processor.py:161} INFO - Started process (PID=10242) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:46.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:02:46.776+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:46.776+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:47.435+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:47.447+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:47.447+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:02:47.458+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:47.458+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:02:47.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.693 seconds
+[2025-05-28T11:02:58.098+0000] {processor.py:161} INFO - Started process (PID=10286) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:58.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:02:58.100+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:58.100+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:59.175+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:02:59.190+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:59.190+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:02:59.203+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:02:59.203+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:02:59.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.124 seconds
+[2025-05-28T11:03:09.531+0000] {processor.py:161} INFO - Started process (PID=10330) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:09.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:03:09.532+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:09.532+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:10.522+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:10.578+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:10.576+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:03:10.611+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:10.611+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:03:10.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.101 seconds
+[2025-05-28T11:03:21.440+0000] {processor.py:161} INFO - Started process (PID=10370) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:21.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:03:21.442+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:21.442+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:22.803+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:22.843+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:22.842+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:03:22.856+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:22.855+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:03:22.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.443 seconds
+[2025-05-28T11:03:32.942+0000] {processor.py:161} INFO - Started process (PID=10423) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:32.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:03:32.944+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:32.944+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:33.993+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:34.031+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:34.031+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:03:34.047+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:34.047+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:03:34.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.121 seconds
+[2025-05-28T11:03:44.315+0000] {processor.py:161} INFO - Started process (PID=10467) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:44.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:03:44.316+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:44.316+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:45.205+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:45.226+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:45.225+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:03:45.244+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:45.243+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:03:45.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.944 seconds
+[2025-05-28T11:03:55.616+0000] {processor.py:161} INFO - Started process (PID=10511) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:55.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:03:55.618+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:55.618+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:57.324+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:03:57.379+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:57.378+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:03:57.400+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:03:57.400+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:03:57.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.803 seconds
+[2025-05-28T11:04:07.671+0000] {processor.py:161} INFO - Started process (PID=10555) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:07.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:04:07.675+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:07.674+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:08.933+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:08.983+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:08.982+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:04:09.032+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:09.031+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:04:09.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.393 seconds
+[2025-05-28T11:04:19.280+0000] {processor.py:161} INFO - Started process (PID=10599) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:19.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:04:19.283+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:19.282+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:20.501+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:20.537+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:20.536+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:04:20.558+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:20.558+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:04:20.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.309 seconds
+[2025-05-28T11:04:30.793+0000] {processor.py:161} INFO - Started process (PID=10643) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:30.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:04:30.799+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:30.798+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:31.836+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:31.882+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:31.881+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:04:31.923+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:31.922+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:04:31.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.165 seconds
+[2025-05-28T11:04:42.061+0000] {processor.py:161} INFO - Started process (PID=10687) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:42.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:04:42.063+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:42.063+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:42.919+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:42.945+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:42.945+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:04:42.957+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:42.957+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:04:42.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 0.910 seconds
+[2025-05-28T11:04:53.203+0000] {processor.py:161} INFO - Started process (PID=10731) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:53.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:04:53.206+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:53.205+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:54.487+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:04:54.517+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:54.517+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:04:54.531+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:04:54.530+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:04:54.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.350 seconds
+[2025-05-28T11:05:05.245+0000] {processor.py:161} INFO - Started process (PID=10775) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:05.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:05:05.250+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:05.249+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:06.386+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:06.417+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:06.416+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:05:06.438+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:06.437+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:05:06.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.224 seconds
+[2025-05-28T11:05:16.725+0000] {processor.py:161} INFO - Started process (PID=10822) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:16.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:05:16.731+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:16.730+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:18.245+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:18.268+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:18.268+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:05:18.284+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:18.283+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:05:18.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.576 seconds
+[2025-05-28T11:05:29.051+0000] {processor.py:161} INFO - Started process (PID=10868) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:29.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:05:29.061+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:29.060+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:30.193+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:30.224+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:30.223+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:05:30.241+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:30.241+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:05:30.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.225 seconds
+[2025-05-28T11:05:40.419+0000] {processor.py:161} INFO - Started process (PID=10912) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:40.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:05:40.421+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:40.421+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:41.627+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:41.657+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:41.656+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:05:41.671+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:41.671+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:05:41.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.268 seconds
+[2025-05-28T11:05:51.923+0000] {processor.py:161} INFO - Started process (PID=10956) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:51.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:05:51.932+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:51.931+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:53.125+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:05:53.178+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:53.177+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:05:53.199+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:05:53.199+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:05:53.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.301 seconds
+[2025-05-28T11:06:04.033+0000] {processor.py:161} INFO - Started process (PID=11000) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:04.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:06:04.038+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:04.037+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:05.161+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:05.192+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:05.191+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:06:05.209+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:05.209+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:06:05.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.215 seconds
+[2025-05-28T11:06:15.649+0000] {processor.py:161} INFO - Started process (PID=11044) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:15.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:06:15.657+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:15.657+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:17.844+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:17.944+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:17.943+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:06:17.982+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:17.982+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:06:18.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 2.374 seconds
+[2025-05-28T11:06:28.237+0000] {processor.py:161} INFO - Started process (PID=11088) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:28.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:06:28.243+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:28.242+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:29.502+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:29.593+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:29.591+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:06:29.614+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:29.614+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:06:29.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.402 seconds
+[2025-05-28T11:06:39.925+0000] {processor.py:161} INFO - Started process (PID=11135) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:39.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:06:39.933+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:39.932+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:41.616+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:41.653+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:41.653+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:06:41.673+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:41.673+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:06:41.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 1.772 seconds
+[2025-05-28T11:06:53.336+0000] {processor.py:161} INFO - Started process (PID=11179) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:06:53.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:06:53.353+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:06:53.348+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:10.257+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:10.444+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:10.429+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:07:10.523+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:10.523+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:07:10.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 17.368 seconds
+[2025-05-28T11:07:21.760+0000] {processor.py:161} INFO - Started process (PID=11225) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:21.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:07:21.769+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:21.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:26.682+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:26.799+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:26.797+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:07:26.853+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:26.852+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:07:26.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.169 seconds
+[2025-05-28T11:07:37.505+0000] {processor.py:161} INFO - Started process (PID=11272) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:37.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:07:37.511+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:37.510+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:40.676+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:40.764+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:40.763+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:07:40.813+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:40.813+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:07:40.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 3.365 seconds
+[2025-05-28T11:07:51.125+0000] {processor.py:161} INFO - Started process (PID=11318) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:51.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:07:51.132+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:51.131+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:55.752+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:07:55.916+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:55.914+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:07:56.000+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:07:55.999+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:07:56.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.965 seconds
+[2025-05-28T11:08:07.169+0000] {processor.py:161} INFO - Started process (PID=11362) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:07.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:08:07.178+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:07.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:11.397+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:11.573+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:11.571+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:08:11.638+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:11.637+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:08:11.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.549 seconds
+[2025-05-28T11:08:22.089+0000] {processor.py:161} INFO - Started process (PID=11406) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:22.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:08:22.104+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:22.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:26.450+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:26.574+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:26.571+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:08:26.660+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:26.660+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:08:26.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.721 seconds
+[2025-05-28T11:08:37.157+0000] {processor.py:161} INFO - Started process (PID=11450) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:37.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:08:37.168+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:37.167+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:41.478+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:41.562+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:41.560+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:08:41.624+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:41.624+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:08:41.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.537 seconds
+[2025-05-28T11:08:52.026+0000] {processor.py:161} INFO - Started process (PID=11494) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:52.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:08:52.031+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:52.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:56.802+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:08:57.307+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:57.298+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:08:57.517+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:08:57.517+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:08:57.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.673 seconds
+[2025-05-28T11:09:08.917+0000] {processor.py:161} INFO - Started process (PID=11538) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:08.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:09:08.936+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:08.930+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:13.639+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:13.851+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:13.849+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:09:13.928+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:13.926+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:09:14.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.228 seconds
+[2025-05-28T11:09:24.875+0000] {processor.py:161} INFO - Started process (PID=11582) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:24.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:09:24.897+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:24.894+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:29.964+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:30.057+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:30.056+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:09:30.115+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:30.114+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:09:30.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.330 seconds
+[2025-05-28T11:09:40.470+0000] {processor.py:161} INFO - Started process (PID=11626) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:40.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:09:40.477+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:40.476+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:49.226+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:09:49.348+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:49.345+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:09:49.454+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:09:49.451+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:09:49.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 9.052 seconds
+[2025-05-28T11:10:00.100+0000] {processor.py:161} INFO - Started process (PID=11673) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:00.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:10:00.110+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:00.109+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:05.917+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:05.984+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:05.983+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:10:06.044+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:06.043+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:10:06.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 6.026 seconds
+[2025-05-28T11:10:16.976+0000] {processor.py:161} INFO - Started process (PID=11719) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:16.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:10:16.985+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:16.984+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:20.476+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:20.574+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:20.573+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:10:20.624+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:20.624+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:10:20.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 3.706 seconds
+[2025-05-28T11:10:31.360+0000] {processor.py:161} INFO - Started process (PID=11766) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:31.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:10:31.369+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:31.369+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:35.307+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:35.394+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:35.391+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:10:35.442+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:35.442+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:10:35.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.126 seconds
+[2025-05-28T11:10:45.921+0000] {processor.py:161} INFO - Started process (PID=11812) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:45.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:10:45.925+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:45.924+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:48.966+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:49.050+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:49.048+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:10:49.112+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:49.112+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:10:49.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 3.246 seconds
+[2025-05-28T11:10:59.472+0000] {processor.py:161} INFO - Started process (PID=11856) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:10:59.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:10:59.481+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:10:59.480+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:03.263+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:03.404+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:03.402+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:11:03.497+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:03.496+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:11:03.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.099 seconds
+[2025-05-28T11:11:14.036+0000] {processor.py:161} INFO - Started process (PID=11900) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:14.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:11:14.045+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:14.044+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:19.073+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:19.168+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:19.166+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:11:19.227+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:19.227+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:11:19.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.249 seconds
+[2025-05-28T11:11:29.885+0000] {processor.py:161} INFO - Started process (PID=11947) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:29.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:11:29.890+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:29.889+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:39.278+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:39.439+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:39.437+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:11:39.563+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:39.562+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:11:39.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 9.808 seconds
+[2025-05-28T11:11:50.815+0000] {processor.py:161} INFO - Started process (PID=11993) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:50.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:11:50.829+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:50.826+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:59.143+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:11:59.255+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:59.253+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:11:59.352+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:11:59.352+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:11:59.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 8.661 seconds
+[2025-05-28T11:12:09.882+0000] {processor.py:161} INFO - Started process (PID=12037) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:09.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:12:09.889+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:09.887+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:14.356+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:14.560+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:14.558+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:12:14.677+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:14.676+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:12:14.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.922 seconds
+[2025-05-28T11:12:25.328+0000] {processor.py:161} INFO - Started process (PID=12081) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:25.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:12:25.341+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:25.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:29.686+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:30.117+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:30.110+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:12:30.290+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:30.287+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:12:30.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.169 seconds
+[2025-05-28T11:12:41.441+0000] {processor.py:161} INFO - Started process (PID=12128) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:41.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:12:41.447+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:41.446+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:46.665+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:46.820+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:46.818+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:12:46.916+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:46.916+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:12:46.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.545 seconds
+[2025-05-28T11:12:57.186+0000] {processor.py:161} INFO - Started process (PID=12174) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:12:57.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:12:57.206+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:12:57.204+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:01.887+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:02.061+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:02.053+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:13:02.428+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:02.419+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:13:02.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.479 seconds
+[2025-05-28T11:13:13.731+0000] {processor.py:161} INFO - Started process (PID=12218) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:13.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:13:13.737+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:13.736+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:18.406+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:18.546+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:18.545+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:13:18.631+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:18.630+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:13:18.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.961 seconds
+[2025-05-28T11:13:29.260+0000] {processor.py:161} INFO - Started process (PID=12262) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:29.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:13:29.267+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:29.266+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:32.992+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:33.080+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:33.079+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:13:33.141+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:33.140+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:13:33.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 3.940 seconds
+[2025-05-28T11:13:43.576+0000] {processor.py:161} INFO - Started process (PID=12306) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:43.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:13:43.589+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:43.585+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:48.030+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:48.114+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:48.112+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:13:48.183+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:48.183+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:13:48.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.663 seconds
+[2025-05-28T11:13:58.849+0000] {processor.py:161} INFO - Started process (PID=12353) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:13:58.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:13:58.854+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:13:58.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:03.556+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:03.707+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:03.705+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:14:03.802+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:03.801+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:14:03.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.021 seconds
+[2025-05-28T11:14:14.248+0000] {processor.py:161} INFO - Started process (PID=12399) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:14.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:14:14.266+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:14.262+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:20.645+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:20.789+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:20.787+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:14:20.846+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:20.845+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:14:20.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 6.682 seconds
+[2025-05-28T11:14:31.293+0000] {processor.py:161} INFO - Started process (PID=12443) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:31.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:14:31.305+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:31.304+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:37.389+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:37.593+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:37.591+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:14:37.744+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:37.743+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:14:37.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 6.578 seconds
+[2025-05-28T11:14:48.762+0000] {processor.py:161} INFO - Started process (PID=12487) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:48.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:14:48.775+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:48.770+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:52.496+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:14:52.599+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:52.598+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:14:52.679+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:14:52.678+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:14:52.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 3.974 seconds
+[2025-05-28T11:15:03.503+0000] {processor.py:161} INFO - Started process (PID=12534) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:03.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:15:03.517+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:03.516+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:08.537+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:08.659+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:08.658+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:15:08.724+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:08.723+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:15:08.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.317 seconds
+[2025-05-28T11:15:19.184+0000] {processor.py:161} INFO - Started process (PID=12580) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:19.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:15:19.190+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:19.190+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:22.853+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:22.954+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:22.953+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:15:23.014+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:23.013+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:15:23.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 3.919 seconds
+[2025-05-28T11:15:33.554+0000] {processor.py:161} INFO - Started process (PID=12624) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:33.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:15:33.560+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:33.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:38.010+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:38.105+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:38.104+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:15:38.204+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:38.203+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:15:38.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.738 seconds
+[2025-05-28T11:15:49.131+0000] {processor.py:161} INFO - Started process (PID=12671) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:49.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:15:49.139+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:49.138+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:53.488+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:15:53.594+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:53.592+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:15:53.652+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:15:53.651+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:15:53.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.592 seconds
+[2025-05-28T11:16:04.108+0000] {processor.py:161} INFO - Started process (PID=12717) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:04.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:16:04.250+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:04.219+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:09.206+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:09.293+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:09.291+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:16:09.357+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:09.356+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:16:09.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 5.354 seconds
+[2025-05-28T11:16:19.995+0000] {processor.py:161} INFO - Started process (PID=12759) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:19.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:16:20.004+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:20.003+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:34.978+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:35.109+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:35.108+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:16:35.178+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:35.177+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:16:35.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 15.282 seconds
+[2025-05-28T11:16:46.016+0000] {processor.py:161} INFO - Started process (PID=12808) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:46.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:16:46.022+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:46.022+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:50.692+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:16:50.825+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:50.822+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:16:50.892+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:16:50.891+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:16:50.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.941 seconds
+[2025-05-28T11:17:01.749+0000] {processor.py:161} INFO - Started process (PID=12854) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:01.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:17:01.773+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:01.765+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:05.476+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:05.583+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:05.582+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:17:05.655+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:05.654+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:17:05.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 3.973 seconds
+[2025-05-28T11:17:16.064+0000] {processor.py:161} INFO - Started process (PID=12898) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:16.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:17:16.071+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:16.070+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:19.864+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:19.986+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:19.985+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:17:20.051+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:20.051+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:17:20.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.049 seconds
+[2025-05-28T11:17:31.125+0000] {processor.py:161} INFO - Started process (PID=12945) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:31.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:17:31.135+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:31.134+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:35.693+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:35.768+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:35.767+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:17:35.850+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:35.850+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:17:35.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.829 seconds
+[2025-05-28T11:17:46.688+0000] {processor.py:161} INFO - Started process (PID=12991) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:46.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:17:46.704+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:46.703+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:51.259+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:17:51.372+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:51.371+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:17:51.428+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:17:51.428+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:17:51.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 4.819 seconds
+[2025-05-28T11:18:02.156+0000] {processor.py:161} INFO - Started process (PID=13035) to work on /opt/airflow/dags/train_models.py
+[2025-05-28T11:18:02.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_models.py for tasks to queue
+[2025-05-28T11:18:02.210+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:18:02.209+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_models.py
+[2025-05-28T11:18:14.890+0000] {processor.py:840} INFO - DAG(s) 'train_ml_models' retrieved from /opt/airflow/dags/train_models.py
+[2025-05-28T11:18:15.590+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:18:15.567+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T11:18:15.799+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:18:15.798+0000] {dag.py:3834} INFO - Setting next_dagrun for train_ml_models to 2025-05-28 00:00:00+00:00, run_after=2025-05-29 00:00:00+00:00
+[2025-05-28T11:18:15.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_models.py took 13.878 seconds

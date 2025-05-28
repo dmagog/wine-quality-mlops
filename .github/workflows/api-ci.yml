@@ -43,16 +43,13 @@ jobs:
       run: |
         pytest tests   
 
-    - name: Configure DVC remote
+    - name: 🔧 Configure DVC remote
       run: |
-        dvc remote add -d $MINIO_ALIAS $MINIO_URL
-        dvc remote modify $MINIO_ALIAS access_key_id $AWS_ACCESS_KEY_ID
-        dvc remote modify $MINIO_ALIAS secret_access_key $AWS_SECRET_ACCESS_KEY
-        dvc pull -r $MINIO_ALIAS
-      working-directory: ${{ env.LOCAL_PATH }}    
+        dvc remote modify --local minio-storage access_key_id ${{ secrets.MINIO_ACCESS_KEY }}
+        dvc remote modify --local minio-storage secret_access_key ${{ secrets.MINIO_SECRET_KEY }}
+   
 
     - name: 📦 DVC pull (model)
-    
       run: |
         dvc pull artifacts/best_model.pkl.dvc || echo "⚠️ DVC pull пропущен в CI"
         ls -l artifacts || true
