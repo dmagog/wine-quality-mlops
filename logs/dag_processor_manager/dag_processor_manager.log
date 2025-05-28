@@ -19330,3 +19330,148 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.96s           2025-05-28T17:02:01
 /opt/airflow/dags/full_pipeline.py                                             1           0  0.23s           2025-05-28T17:01:59
 ================================================================================
+[2025-05-28T17:02:33.712+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models.py                                              1           0  2.79s           2025-05-28T17:02:26
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  2.21s           2025-05-28T17:02:25
+/opt/airflow/dags/train_models_old.py                                          1           0  1.69s           2025-05-28T17:02:28
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.14s           2025-05-28T17:02:31
+================================================================================
+[2025-05-28T17:03:04.561+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models.py                                              1           0  1.18s           2025-05-28T17:03:01
+/opt/airflow/dags/train_models_old.py                                          1           0  1.14s           2025-05-28T17:03:03
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.93s           2025-05-28T17:03:01
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.13s           2025-05-28T17:03:02
+================================================================================
+[2025-05-28T17:03:34.596+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models.py                      1094  0.20s             1           0  1.25s           2025-05-28T17:03:24
+/opt/airflow/dags/train_models_old.py                                          1           0  1.12s           2025-05-28T17:03:26
+/opt/airflow/dags/register_best_model_from_mlflow.py   1097  0.19s             1           0  0.90s           2025-05-28T17:03:24
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.25s           2025-05-28T17:03:33
+================================================================================
+[2025-05-28T17:04:05.236+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models.py                                              1           0  1.17s           2025-05-28T17:03:58
+/opt/airflow/dags/train_models_old.py                                          1           0  0.95s           2025-05-28T17:04:00
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.90s           2025-05-28T17:03:57
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.15s           2025-05-28T17:04:04
+================================================================================
+[2025-05-28T17:04:30.604+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:04:30.616+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-05-28T17:04:35.728+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models.py                                              1           0  1.31s           2025-05-28T17:04:31
+/opt/airflow/dags/train_models_old.py                                          1           0  0.92s           2025-05-28T17:04:33
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.92s           2025-05-28T17:04:31
+/opt/airflow/dags/full_pipeline.py                     1353  0.01s             1           0  0.21s           2025-05-28T17:04:25
+================================================================================
+[2025-05-28T17:05:05.874+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models_old.py                                          1           0  1.49s           2025-05-28T17:05:00
+/opt/airflow/dags/train_models.py                                              1           0  1.37s           2025-05-28T17:04:56
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.95s           2025-05-28T17:05:05
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.09s           2025-05-28T17:04:56
+================================================================================
+[2025-05-28T17:05:36.310+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models.py                                              1           0  1.68s           2025-05-28T17:05:32
+/opt/airflow/dags/train_models_old.py                                          1           0  1.14s           2025-05-28T17:05:34
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.99s           2025-05-28T17:05:28
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.21s           2025-05-28T17:05:28
+================================================================================
+[2025-05-28T17:06:06.395+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models.py                      1684  0.57s             1           0  1.05s           2025-05-28T17:05:55
+/opt/airflow/dags/train_models_old.py                                          1           0  1.03s           2025-05-28T17:05:57
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.67s           2025-05-28T17:06:02
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.12s           2025-05-28T17:05:59
+================================================================================
+[2025-05-28T17:06:36.836+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models.py                                              1           0  1.16s           2025-05-28T17:06:30
+/opt/airflow/dags/train_models_old.py                                          1           0  0.91s           2025-05-28T17:06:31
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.79s           2025-05-28T17:06:36
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.12s           2025-05-28T17:06:30
+================================================================================
+[2025-05-28T17:07:07.410+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models_old.py                                          1           0  1.05s           2025-05-28T17:07:05
+/opt/airflow/dags/train_models.py                                              1           0  1.00s           2025-05-28T17:07:04
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.85s           2025-05-28T17:06:58
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.15s           2025-05-28T17:07:02
+================================================================================
+[2025-05-28T17:07:38.229+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models_old.py                                          1           0  1.54s           2025-05-28T17:07:28
+/opt/airflow/dags/train_models.py                                              1           0  0.91s           2025-05-28T17:07:38
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.79s           2025-05-28T17:07:32
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.08s           2025-05-28T17:07:33
+================================================================================
+[2025-05-28T17:08:08.323+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models_old.py                                          1           0  1.65s           2025-05-28T17:08:02
+/opt/airflow/dags/train_models.py                                              1           0  1.61s           2025-05-28T17:08:02
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.85s           2025-05-28T17:08:05
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.24s           2025-05-28T17:08:04
+================================================================================
+[2025-05-28T17:08:38.358+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_models_old.py                  2261  1.18s             1           0  2.37s           2025-05-28T17:08:26
+/opt/airflow/dags/train_models.py                      2270  1.01s             1           0  2.35s           2025-05-28T17:08:26
+/opt/airflow/dags/register_best_model_from_mlflow.py                           1           0  0.69s           2025-05-28T17:08:27
+/opt/airflow/dags/full_pipeline.py                                             1           0  0.14s           2025-05-28T17:08:37
+================================================================================

@@ -9,3 +9,5 @@ artifacts/*.pkl
 data/
 .dvc/config.local
 /winequality-red.csv
+logs/
+mlruns/
