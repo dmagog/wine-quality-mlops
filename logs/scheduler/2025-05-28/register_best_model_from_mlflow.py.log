@@ -17496,3 +17496,315 @@ IndentationError: unindent does not match any outer indentation level
 [2025-05-28T11:18:16.892+0000] {processor.py:161} INFO - Started process (PID=13061) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
 [2025-05-28T11:18:17.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
 [2025-05-28T11:18:17.157+0000] {logging_mixin.py:188} INFO - [2025-05-28T11:18:17.104+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:17.040+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:17.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:01:17.043+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:17.043+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:18.558+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:18.603+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:18.602+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:01:18.611+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:18.611+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:01:18.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 1.610 seconds
+[2025-05-28T16:01:28.867+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:28.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:01:28.870+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:28.869+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:29.573+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:29.590+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:29.589+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:01:29.597+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:29.596+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:01:29.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.744 seconds
+[2025-05-28T16:01:40.426+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:40.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:01:40.428+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:40.428+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:41.044+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:41.068+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:41.067+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:01:41.074+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:41.074+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:01:41.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.660 seconds
+[2025-05-28T16:01:51.405+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:51.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:01:51.409+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:51.408+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:53.388+0000] {logging_mixin.py:188} WARNING - Exception ignored in: <function _collection_gced at 0xffff8f393820>
+[2025-05-28T16:01:53.389+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2025-05-28T16:01:53.389+0000] {logging_mixin.py:188} WARNING -   File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/event/registry.py", line 53, in _collection_gced
+[2025-05-28T16:01:53.390+0000] {logging_mixin.py:188} WARNING -     def _collection_gced(ref):
+[2025-05-28T16:01:53.391+0000] {logging_mixin.py:188} WARNING -   File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py", line 452, in _exit_gracefully
+[2025-05-28T16:01:53.391+0000] {logging_mixin.py:188} WARNING -     self.log.debug("Current Stacktrace is: %s", "\n".join(map(str, inspect.stack())))
+[2025-05-28T16:01:53.392+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/inspect.py", line 1526, in stack
+[2025-05-28T16:01:53.392+0000] {logging_mixin.py:188} WARNING -     return getouterframes(sys._getframe(1), context)
+[2025-05-28T16:01:53.393+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/inspect.py", line 1503, in getouterframes
+[2025-05-28T16:01:53.394+0000] {logging_mixin.py:188} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2025-05-28T16:01:53.394+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/inspect.py", line 1477, in getframeinfo
+[2025-05-28T16:01:53.395+0000] {logging_mixin.py:188} WARNING -     lines, lnum = findsource(frame)
+[2025-05-28T16:01:53.395+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/inspect.py", line 792, in findsource
+[2025-05-28T16:01:53.395+0000] {logging_mixin.py:188} WARNING -     module = getmodule(object, file)
+[2025-05-28T16:01:53.396+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/inspect.py", line 754, in getmodule
+[2025-05-28T16:01:53.397+0000] {logging_mixin.py:188} WARNING -     os.path.realpath(f)] = module.__name__
+[2025-05-28T16:01:53.404+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/posixpath.py", line 391, in realpath
+[2025-05-28T16:01:53.407+0000] {logging_mixin.py:188} WARNING -     path, ok = _joinrealpath(filename[:0], filename, {})
+[2025-05-28T16:01:53.408+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/posixpath.py", line 424, in _joinrealpath
+[2025-05-28T16:01:53.409+0000] {logging_mixin.py:188} WARNING -     newpath = join(path, name)
+[2025-05-28T16:01:53.410+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/posixpath.py", line 83, in join
+[2025-05-28T16:01:53.412+0000] {logging_mixin.py:188} WARNING -     if b.startswith(sep):
+[2025-05-28T16:01:53.413+0000] {logging_mixin.py:188} WARNING -   File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py", line 456, in _exit_gracefully
+[2025-05-28T16:01:53.416+0000] {logging_mixin.py:188} WARNING -     sys.exit(os.EX_OK)
+[2025-05-28T16:01:53.418+0000] {logging_mixin.py:188} WARNING - SystemExit: 0
+[2025-05-28T16:01:53.897+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:01:53.978+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:53.978+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:01:54.006+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:01:54.005+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:01:54.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 2.691 seconds
+[2025-05-28T16:02:17.938+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:17.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:02:17.940+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:17.939+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:18.812+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:18.856+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:18.856+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:02:18.875+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:18.874+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:02:18.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.977 seconds
+[2025-05-28T16:02:29.142+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:29.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:02:29.144+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:29.144+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:29.693+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:29.712+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:29.711+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:02:29.718+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:29.717+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:02:29.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.587 seconds
+[2025-05-28T16:02:40.289+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:40.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:02:40.292+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:40.291+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:41.001+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:41.023+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:41.022+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:02:41.031+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:41.031+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:02:41.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.758 seconds
+[2025-05-28T16:02:51.421+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:51.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:02:51.422+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:51.422+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:52.092+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:02:52.145+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:52.145+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:02:52.150+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:02:52.150+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:02:52.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.740 seconds
+[2025-05-28T16:03:02.868+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:02.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:03:02.870+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:02.869+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:03.498+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:03.512+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:03.512+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:03:03.518+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:03.518+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:03:03.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.665 seconds
+[2025-05-28T16:03:13.812+0000] {processor.py:161} INFO - Started process (PID=406) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:13.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:03:13.813+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:13.813+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:14.328+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:14.336+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:14.336+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:03:14.342+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:14.342+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:03:14.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.542 seconds
+[2025-05-28T16:03:24.503+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:24.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:03:24.505+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:24.505+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:25.747+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:25.845+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:25.843+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:03:25.868+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:25.868+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:03:25.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 1.399 seconds
+[2025-05-28T16:03:36.543+0000] {processor.py:161} INFO - Started process (PID=494) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:36.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:03:36.546+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:36.545+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:37.151+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:37.171+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:37.171+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:03:37.177+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:37.177+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:03:37.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.655 seconds
+[2025-05-28T16:03:47.867+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:47.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:03:47.874+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:47.871+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:48.494+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:48.515+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:48.515+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:03:48.522+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:48.522+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:03:48.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.675 seconds
+[2025-05-28T16:03:59.093+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:59.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:03:59.096+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:59.096+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:59.763+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:03:59.776+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:59.776+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:03:59.781+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:03:59.781+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:03:59.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.708 seconds
+[2025-05-28T16:04:10.184+0000] {processor.py:161} INFO - Started process (PID=626) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:04:10.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:04:10.188+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:04:10.188+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:04:10.827+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:04:10.844+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:04:10.844+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:04:10.851+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:04:10.851+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:04:10.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.687 seconds
+[2025-05-28T16:04:21.468+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:04:21.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:04:21.470+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:04:21.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:04:22.199+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:04:22.217+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:04:22.217+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:04:22.224+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:04:22.224+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:04:22.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.771 seconds
+[2025-05-28T16:04:59.602+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:04:59.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:04:59.605+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:04:59.604+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:00.911+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:01.026+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:01.026+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:05:01.036+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:01.036+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:05:01.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 1.530 seconds
+[2025-05-28T16:05:11.277+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:11.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:05:11.279+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:11.279+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:11.891+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:11.906+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:11.906+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:05:11.912+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:11.912+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:05:11.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.647 seconds
+[2025-05-28T16:05:22.565+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:22.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:05:22.568+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:22.567+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:23.427+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:23.458+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:23.458+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:05:23.466+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:23.466+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:05:23.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.921 seconds
+[2025-05-28T16:05:33.825+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:33.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:05:33.827+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:33.827+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:34.409+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:34.466+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:34.466+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:05:34.471+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:34.471+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:05:34.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.659 seconds
+[2025-05-28T16:05:44.701+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:44.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:05:44.704+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:44.703+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:45.284+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:45.296+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:45.296+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:05:45.303+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:45.302+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:05:45.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.615 seconds
+[2025-05-28T16:05:55.740+0000] {processor.py:161} INFO - Started process (PID=406) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:55.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:05:55.745+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:55.744+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:56.762+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:05:56.779+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:56.779+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:05:56.793+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:05:56.793+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:05:56.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 1.075 seconds
+[2025-05-28T16:06:06.970+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:06.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:06:06.974+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:06.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:07.573+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:07.593+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:07.592+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:06:07.599+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:07.598+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:06:07.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.645 seconds
+[2025-05-28T16:06:18.245+0000] {processor.py:161} INFO - Started process (PID=494) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:18.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:06:18.249+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:18.248+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:18.850+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:18.867+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:18.867+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:06:18.873+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:18.873+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:06:18.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.641 seconds
+[2025-05-28T16:06:29.637+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:29.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:06:29.638+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:29.638+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:30.342+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:30.366+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:30.365+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:06:30.372+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:30.372+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:06:30.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.749 seconds
+[2025-05-28T16:06:40.665+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:40.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:06:40.667+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:40.666+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:41.249+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:41.270+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:41.269+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:06:41.278+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:41.278+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:06:41.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.630 seconds
+[2025-05-28T16:06:51.970+0000] {processor.py:161} INFO - Started process (PID=626) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:51.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:06:51.972+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:51.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:52.626+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:06:52.639+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:52.639+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:06:52.646+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:06:52.646+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:06:52.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.690 seconds
+[2025-05-28T16:07:02.878+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:02.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:07:02.880+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:02.879+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:03.453+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:03.475+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:03.474+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:07:03.481+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:03.481+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:07:03.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.616 seconds
+[2025-05-28T16:07:13.617+0000] {processor.py:161} INFO - Started process (PID=714) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:13.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:07:13.619+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:13.618+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:14.221+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:14.239+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:14.239+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:07:14.247+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:14.247+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:07:14.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.644 seconds
+[2025-05-28T16:07:24.804+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:24.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:07:24.807+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:24.807+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:25.412+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:25.426+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:25.426+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:07:25.433+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:25.433+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:07:25.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.643 seconds
+[2025-05-28T16:07:35.697+0000] {processor.py:161} INFO - Started process (PID=802) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:35.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:07:35.701+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:35.700+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:36.317+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:36.336+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:36.336+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:07:36.343+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:36.343+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:07:36.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.660 seconds
+[2025-05-28T16:07:47.367+0000] {processor.py:161} INFO - Started process (PID=846) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:47.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:07:47.369+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:47.369+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:48.000+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:48.020+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:48.020+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:07:48.026+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:48.026+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:07:48.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.676 seconds
+[2025-05-28T16:07:58.099+0000] {processor.py:161} INFO - Started process (PID=890) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:58.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:07:58.105+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:58.104+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:58.747+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:07:58.758+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:58.758+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:07:58.766+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:07:58.766+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:07:58.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.687 seconds
+[2025-05-28T16:08:09.394+0000] {processor.py:161} INFO - Started process (PID=939) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:09.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:08:09.396+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:09.395+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:10.012+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:10.039+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:10.039+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:08:10.053+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:10.053+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:08:10.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.674 seconds
+[2025-05-28T16:08:20.623+0000] {processor.py:161} INFO - Started process (PID=983) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:20.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:08:20.628+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:20.628+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:21.280+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:21.303+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:21.303+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:08:21.309+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:21.309+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:08:21.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.705 seconds
+[2025-05-28T16:08:31.899+0000] {processor.py:161} INFO - Started process (PID=1027) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:31.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:08:31.902+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:31.901+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:32.483+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:32.505+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:32.505+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:08:32.512+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:32.512+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:08:32.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.636 seconds
+[2025-05-28T16:08:43.116+0000] {processor.py:161} INFO - Started process (PID=1071) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:43.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:08:43.118+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:43.117+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:43.678+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:43.695+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:43.695+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:08:43.702+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:43.702+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:08:43.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.598 seconds
+[2025-05-28T16:08:54.472+0000] {processor.py:161} INFO - Started process (PID=1115) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:54.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:08:54.475+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:54.474+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:55.112+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:08:55.131+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:55.131+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:08:55.137+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:08:55.137+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:08:55.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.678 seconds
+[2025-05-28T16:09:05.876+0000] {processor.py:161} INFO - Started process (PID=1159) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:05.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:09:05.885+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:05.884+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:06.794+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:06.846+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:06.845+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:09:06.856+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:06.856+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:09:06.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 1.027 seconds
+[2025-05-28T16:09:17.197+0000] {processor.py:161} INFO - Started process (PID=1203) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:17.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:09:17.202+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:17.201+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:17.777+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:17.791+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:17.791+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:09:17.798+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:17.798+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:09:17.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.615 seconds
+[2025-05-28T16:09:28.230+0000] {processor.py:161} INFO - Started process (PID=1247) to work on /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:28.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/register_best_model_from_mlflow.py for tasks to queue
+[2025-05-28T16:09:28.236+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:28.235+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:28.815+0000] {processor.py:840} INFO - DAG(s) 'register_best_model_from_mlflow' retrieved from /opt/airflow/dags/register_best_model_from_mlflow.py
+[2025-05-28T16:09:28.834+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:28.834+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-28T16:09:28.840+0000] {logging_mixin.py:188} INFO - [2025-05-28T16:09:28.840+0000] {dag.py:3834} INFO - Setting next_dagrun for register_best_model_from_mlflow to None, run_after=None
+[2025-05-28T16:09:28.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/register_best_model_from_mlflow.py took 0.626 seconds
