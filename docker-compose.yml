@@ -132,28 +132,26 @@ services:
 
     
 
-  airflow-worker: 
-    build:
-      context: .
-      dockerfile: Dockerfile
-    restart: always
-    depends_on:
-      - postgres
-    environment:
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      #- AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
-
-    volumes:
-      - .:/app
-      - ./mlruns:/app/mlruns
-      - ./dags:/opt/airflow/dags
-      - ./logs:/opt/airflow/logs
-      - ./plugins:/opt/airflow/plugins
-      - .dvc/config.local:/app/.dvc/config.local
-    command: worker
-    networks:
-      - airflow-net
+  # airflow-worker: 
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   restart: always
+  #   depends_on:
+  #     - postgres
+  #   environment:
+  #     - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+  #     - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+  #   volumes:
+  #     - .:/app
+  #     - ./mlruns:/app/mlruns
+  #     - ./dags:/opt/airflow/dags
+  #     - ./logs:/opt/airflow/logs
+  #     - ./plugins:/opt/airflow/plugins
+  #     - .dvc/config.local:/app/.dvc/config.local
+  #   command: celery worker
+  #   networks:
+  #     - airflow-net
 
   api:
     build:

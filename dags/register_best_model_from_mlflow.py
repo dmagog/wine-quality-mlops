@@ -58,17 +58,19 @@ def select_best_model_from_mlflow():
     status = subprocess.run(["git", "status", "--porcelain"], cwd="/app", capture_output=True, text=True)
     if status.stdout.strip():
         print("📌 Выполняем git commit...")
-        commit = subprocess.run(["git", "commit", "-m", "Register best model from MLflow"],
-                                cwd="/app",
-                                capture_output=True,
-                                text=True
+        commit = subprocess.run(
+            ["git", "commit", "-m", "Register best model from MLflow"],
+            cwd="/app",
+            capture_output=True,
+            text=True
         )
         print("🔧 Git commit stdout:", commit.stdout)
         print("🔧 Git commit stderr:", commit.stderr)
-        commit.check_returncode()
 
+        if commit.returncode != 0:
+            print("⚠️ Git commit не удался.")
     else:
-        print("ℹ️ Git чист — нечего коммитить.")
+        print("ℹ️ Git чист — нечего коммитить.")    
 
     subprocess.run(["dvc", "push"], cwd="/app", check=True)
     print("🚀 Модель добавлена в DVC и запушена")
