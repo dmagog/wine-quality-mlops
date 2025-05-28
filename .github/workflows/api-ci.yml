@@ -32,14 +32,14 @@ jobs:
         pip install -r requirements.txt
         pip install fastapi uvicorn httpx pytest ruff dvc[s3]
 
-    - name: 🔧 Init DVC (no-scm)
-      run: |
-        dvc init --no-scm
+    # - name: 🔧 Init DVC (no-scm)
+    #   run: |
+    #     dvc init --no-scm
 
-    - name: 📦 Configure DVC remote
-      run: |
-        dvc remote add -d $MINIO_ALIAS $MINIO_URL
-        dvc remote modify --local $MINIO_ALIAS access_key_id $MINIO_ACCESS_KEY
+    # - name: 📦 Configure DVC remote
+    #   run: |
+    #     dvc remote add -d $MINIO_ALIAS $MINIO_URL
+    #     dvc remote modify --local $MINIO_ALIAS access_key_id $MINIO_ACCESS_KEY
       
 
     - name: 🔍 Run linter (ruff)
