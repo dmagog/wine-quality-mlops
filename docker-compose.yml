@@ -7,6 +7,7 @@ x-airflow-common:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+
     AIRFLOW__CORE__FERNET_KEY: ''
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
@@ -56,6 +57,8 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
+    networks:
+      - airflow-net
     volumes:
       - .:/app
       - ./dags:/opt/airflow/dags
@@ -63,6 +66,7 @@ services:
       - ./plugins:/opt/airflow/plugins
       - .dvc:/app/.dvc
       - .dvc/config.local:/app/.dvc/config.local 
+      - ./mlruns:/app/mlruns
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
       interval: 10s
@@ -82,6 +86,7 @@ services:
       - ./plugins:/opt/airflow/plugins
       - .dvc:/app/.dvc
       - .dvc/config.local:/app/.dvc/config.local 
+      - ./mlruns:/app/mlruns
     restart: always
 
   airflow-init:
@@ -99,29 +104,33 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - .dvc:/app/.dvc  
+      - ./mlruns:/app/mlruns
+    networks:
+      - airflow-net  
 
   mlflow:
     image: bitnami/mlflow:2.22.0-debian-12-r3
     container_name: mlflow
-    working_dir: /
-    entrypoint: ""
-    command:
-      - mlflow
-      - server
-      - --host
-      - 0.0.0.0
-      - --port
-      - "5000"
-      - --backend-store-uri
-      - sqlite:///mlruns/mlflow.db
-      - --default-artifact-root
-      - /mlruns/artifacts
     ports:
       - "5001:5000"
+    environment:
+      - MLFLOW_BACKEND_STORE_URI=postgresql+psycopg2://airflow:airflow@postgres/mlflow
+      - MLFLOW_ARTIFACT_ROOT=/app/mlruns
+    command: >
+      mlflow server
+      --backend-store-uri postgresql+psycopg2://airflow:airflow@postgres/mlflow
+      --default-artifact-root /app/mlruns
+      --host 0.0.0.0
     volumes:
-      - ./mlruns:/mlruns
+      - ./mlruns:/app/mlruns
+    depends_on:
+      - postgres
     networks:
       - airflow-net
+    entrypoint: ""
+
+
+    
 
   airflow-worker: 
     build:
@@ -132,14 +141,19 @@ services:
       - postgres
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      #- AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+
     volumes:
       - .:/app
+      - ./mlruns:/app/mlruns
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - .dvc/config.local:/app/.dvc/config.local
     command: worker
+    networks:
+      - airflow-net
 
   api:
     build:

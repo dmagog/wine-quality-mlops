@@ -1,0 +1,15 @@
+artifact_uri: file:///app/mlruns/847470308942040123/60accff2002049769399c41efd4689d2/artifacts
+end_time: 1748419831928
+entry_point_name: ''
+experiment_id: '847470308942040123'
+lifecycle_stage: active
+run_id: 60accff2002049769399c41efd4689d2
+run_name: RandomForest
+run_uuid: 60accff2002049769399c41efd4689d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748419831424
+status: 3
+tags: []
+user_id: airflow

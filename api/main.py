@@ -1,6 +1,6 @@
 
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 import joblib
 import pandas as pd
 import subprocess
@@ -13,17 +13,17 @@ MODEL_PATH = "artifacts/best_model.pkl"
 
 # Входные параметры
 class WineFeatures(BaseModel):
-    fixed_acidity: float
-    volatile_acidity: float
-    citric_acid: float
-    residual_sugar: float
-    chlorides: float
-    free_sulfur_dioxide: float
-    total_sulfur_dioxide: float
-    density: float
-    pH: float
-    sulphates: float
-    alcohol: float
+    fixed_acidity: float = Field(..., ge=0, le=20)
+    volatile_acidity: float = Field(..., ge=0, le=2)
+    citric_acid: float = Field(..., ge=0, le=1)
+    residual_sugar: float = Field(..., ge=0, le=15)
+    chlorides: float = Field(..., ge=0, le=1)
+    free_sulfur_dioxide: float = Field(..., ge=0, le=100)
+    total_sulfur_dioxide: float = Field(..., ge=0, le=250)
+    density: float = Field(..., ge=0.990, le=1.005)
+    pH: float = Field(..., ge=0, le=14)
+    sulphates: float = Field(..., ge=0, le=2)
+    alcohol: float = Field(..., ge=0, le=20)
 
 # Переименование признаков
 feature_mapping = {

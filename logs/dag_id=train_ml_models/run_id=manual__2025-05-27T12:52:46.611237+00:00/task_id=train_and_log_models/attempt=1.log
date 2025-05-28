@@ -1,0 +1,39 @@
+[2025-05-27T12:52:47.923+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_ml_models.train_and_log_models manual__2025-05-27T12:52:46.611237+00:00 [queued]>
+[2025-05-27T12:52:47.927+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_ml_models.train_and_log_models manual__2025-05-27T12:52:46.611237+00:00 [queued]>
+[2025-05-27T12:52:47.927+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2025-05-27T12:52:47.933+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): train_and_log_models> on 2025-05-27 12:52:46.611237+00:00
+[2025-05-27T12:52:47.938+0000] {standard_task_runner.py:60} INFO - Started process 242 to run task
+[2025-05-27T12:52:47.940+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'train_ml_models', 'train_and_log_models', 'manual__2025-05-27T12:52:46.611237+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/train_models.py', '--cfg-path', '/tmp/tmpcknnxz1i']
+[2025-05-27T12:52:47.942+0000] {standard_task_runner.py:88} INFO - Job 62: Subtask train_and_log_models
+[2025-05-27T12:52:47.986+0000] {task_command.py:423} INFO - Running <TaskInstance: train_ml_models.train_and_log_models manual__2025-05-27T12:52:46.611237+00:00 [running]> on host 8d570347423a
+[2025-05-27T12:52:48.037+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='train_ml_models' AIRFLOW_CTX_TASK_ID='train_and_log_models' AIRFLOW_CTX_EXECUTION_DATE='2025-05-27T12:52:46.611237+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-27T12:52:46.611237+00:00'
+[2025-05-27T12:52:50.201+0000] {logging_mixin.py:188} INFO - 🧪 Выполняем dvc pull...
+[2025-05-27T12:52:50.208+0000] {logging_mixin.py:188} INFO - STDOUT: Everything is up to date.
+[2025-05-27T12:52:50.208+0000] {logging_mixin.py:188} INFO - STDERR: 
+[2025-05-27T12:52:50.248+0000] {file_store.py:331} WARNING - Malformed experiment 'artifacts'. Detailed error Yaml file '/app/mlruns/artifacts/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/file_store.py", line 327, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/file_store.py", line 421, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/file_store.py", line 1367, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/file_store.py", line 1360, in _read_helper
+    result = read_yaml(root, file_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/file_utils.py", line 309, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file '/app/mlruns/artifacts/meta.yaml' does not exist.
+[2025-05-27T12:52:50.563+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:460 ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+[2025-05-27T12:52:50.656+0000] {logging_mixin.py:188} INFO - ✅ Модель LogisticRegression сохранена и залогирована: /app/artifacts/LogisticRegression.pkl
+[2025-05-27T12:52:50.791+0000] {logging_mixin.py:188} INFO - ✅ Модель DecisionTree сохранена и залогирована: /app/artifacts/DecisionTree.pkl
+[2025-05-27T12:52:51.564+0000] {logging_mixin.py:188} INFO - ✅ Модель RandomForest сохранена и залогирована: /app/artifacts/RandomForest.pkl
+[2025-05-27T12:52:51.585+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-05-27T12:52:51.630+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=train_ml_models, task_id=train_and_log_models, execution_date=20250527T125246, start_date=20250527T125247, end_date=20250527T125251
+[2025-05-27T12:52:51.702+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-27T12:52:51.754+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

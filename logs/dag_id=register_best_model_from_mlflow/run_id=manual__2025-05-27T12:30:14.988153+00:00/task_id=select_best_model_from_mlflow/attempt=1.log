@@ -1,0 +1,47 @@
+[2025-05-27T12:30:16.491+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: register_best_model_from_mlflow.select_best_model_from_mlflow manual__2025-05-27T12:30:14.988153+00:00 [queued]>
+[2025-05-27T12:30:16.496+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: register_best_model_from_mlflow.select_best_model_from_mlflow manual__2025-05-27T12:30:14.988153+00:00 [queued]>
+[2025-05-27T12:30:16.496+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2025-05-27T12:30:16.502+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): select_best_model_from_mlflow> on 2025-05-27 12:30:14.988153+00:00
+[2025-05-27T12:30:16.512+0000] {standard_task_runner.py:60} INFO - Started process 3368 to run task
+[2025-05-27T12:30:16.515+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'register_best_model_from_mlflow', 'select_best_model_from_mlflow', 'manual__2025-05-27T12:30:14.988153+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/register_best_model_from_mlflow.py', '--cfg-path', '/tmp/tmp_s7li9tl']
+[2025-05-27T12:30:16.516+0000] {standard_task_runner.py:88} INFO - Job 56: Subtask select_best_model_from_mlflow
+[2025-05-27T12:30:16.557+0000] {task_command.py:423} INFO - Running <TaskInstance: register_best_model_from_mlflow.select_best_model_from_mlflow manual__2025-05-27T12:30:14.988153+00:00 [running]> on host f0b48d92db9c
+[2025-05-27T12:30:16.610+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='register_best_model_from_mlflow' AIRFLOW_CTX_TASK_ID='select_best_model_from_mlflow' AIRFLOW_CTX_EXECUTION_DATE='2025-05-27T12:30:14.988153+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-27T12:30:14.988153+00:00'
+[2025-05-27T12:30:16.617+0000] {file_store.py:331} WARNING - Malformed experiment 'artifacts'. Detailed error Yaml file '/app/mlruns/artifacts/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/file_store.py", line 327, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/file_store.py", line 421, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/file_store.py", line 1367, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/file_store.py", line 1360, in _read_helper
+    result = read_yaml(root, file_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/file_utils.py", line 309, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file '/app/mlruns/artifacts/meta.yaml' does not exist.
+[2025-05-27T12:30:16.753+0000] {logging_mixin.py:188} INFO - 🏆 Лучшая модель: run_id=5e6de49a3e4e4bd58de779f780f2e972, f1_score=0.578932408097367
+[2025-05-27T12:30:16.771+0000] {logging_mixin.py:188} INFO - ✅ Модель скопирована: /app/artifacts/best_model.pkl
+[2025-05-27T12:30:17.739+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/register_best_model_from_mlflow.py", line 57, in select_best_model_from_mlflow
+    subprocess.run(["git", "add", f"{best_model_path}.dvc", ".gitignore"], cwd="/app", check=True)
+  File "/usr/local/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1720, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: 'git'
+[2025-05-27T12:30:17.772+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=register_best_model_from_mlflow, task_id=select_best_model_from_mlflow, execution_date=20250527T123014, start_date=20250527T123016, end_date=20250527T123017
+[2025-05-27T12:30:17.805+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 56 for task select_best_model_from_mlflow ([Errno 13] Permission denied: 'git'; 3368)
+[2025-05-27T12:30:17.833+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-05-27T12:30:17.861+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
