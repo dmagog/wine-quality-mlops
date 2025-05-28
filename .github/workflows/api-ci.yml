@@ -32,7 +32,7 @@ jobs:
         pip install -r requirements.txt
         pip install fastapi uvicorn httpx pytest ruff dvc[s3]
 
-    - name: Debug: list root directory
+    - name: list root directory
       run: ls -la
 
     - name: Configure DVC remote with GitHub Secrets
