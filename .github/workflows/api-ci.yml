@@ -40,7 +40,7 @@ jobs:
         dvc remote modify --local minio-storage access_key_id "${{ secrets.MINIO_ACCESS_KEY }}"
         dvc remote modify --local minio-storage secret_access_key "${{ secrets.MINIO_SECRET_KEY }}"
         dvc remote modify --local minio-storage endpointurl "${{ secrets.MINIO_URL }}"
-      working-directory: ${{ github.workspace }
+      working-directory: ${{ github.workspace }}
 
     - name: 🔍 Run linter (ruff)
       run: |
