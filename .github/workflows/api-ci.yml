@@ -10,6 +10,13 @@ jobs:
   api-test:
     runs-on: ubuntu-latest
 
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.MINIO_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.MINIO_SECRET_KEY }}
+      MINIO_URL: ${{ secrets.MINIO_URL }}
+      MINIO_ALIAS: ${{ secrets.MINIO_ALIAS }}
+      LOCAL_PATH: ${{ secrets.LOCAL_PATH }}  
+
     steps:
     - name: 📥 Checkout repo
       uses: actions/checkout@v3
@@ -36,7 +43,16 @@ jobs:
       run: |
         pytest tests   
 
+    - name: Configure DVC remote
+      run: |
+        dvc remote add -d $MINIO_ALIAS $MINIO_URL
+        dvc remote modify $MINIO_ALIAS access_key_id $AWS_ACCESS_KEY_ID
+        dvc remote modify $MINIO_ALIAS secret_access_key $AWS_SECRET_ACCESS_KEY
+        dvc pull -r $MINIO_ALIAS
+      working-directory: ${{ env.LOCAL_PATH }}    
+
     - name: 📦 DVC pull (model)
+    
       run: |
         dvc pull artifacts/best_model.pkl.dvc || echo "⚠️ DVC pull пропущен в CI"
         ls -l artifacts || true
