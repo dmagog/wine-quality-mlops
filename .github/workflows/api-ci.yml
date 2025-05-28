@@ -32,6 +32,15 @@ jobs:
         pip install -r requirements.txt
         pip install fastapi uvicorn httpx pytest ruff dvc[s3]
 
+    - name: Debug: list root directory
+      run: ls -la
+
+    - name: Configure DVC remote with GitHub Secrets
+      run: |
+        dvc remote modify --local minio-storage access_key_id "${{ secrets.MINIO_ACCESS_KEY }}"
+        dvc remote modify --local minio-storage secret_access_key "${{ secrets.MINIO_SECRET_KEY }}"
+        dvc remote modify --local minio-storage endpointurl "${{ secrets.MINIO_URL }}"
+      working-directory: ${{ github.workspace }
 
     - name: 🔍 Run linter (ruff)
       run: |
@@ -43,10 +52,10 @@ jobs:
       run: |
         pytest tests   
 
-    - name: 🔧 Configure DVC remote
-      run: |
-        dvc remote modify --local minio-storage access_key_id ${{ secrets.MINIO_ACCESS_KEY }}
-        dvc remote modify --local minio-storage secret_access_key ${{ secrets.MINIO_SECRET_KEY }}
+    # - name: 🔧 Configure DVC remote
+    #   run: |
+    #     dvc remote modify --local minio-storage access_key_id ${{ secrets.MINIO_ACCESS_KEY }}
+    #     dvc remote modify --local minio-storage secret_access_key ${{ secrets.MINIO_SECRET_KEY }}
    
 
     - name: 📦 DVC pull (model)
