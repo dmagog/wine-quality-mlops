@@ -11,3 +11,9 @@ data/
 /winequality-red.csv
 logs/
 mlruns/
+
+# Logs
+*.log
+
+# CI
+.github/workflows/api-ci.yml
