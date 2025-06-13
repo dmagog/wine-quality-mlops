@@ -1,34 +1,66 @@
 from airflow import DAG
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
-from airflow.utils.dates import days_ago
-from datetime import timedelta
+from datetime import datetime, timedelta
+import logging
+
+from utils.config import airflow_config
+from utils.notifications import send_failure_notification
+
+logger = logging.getLogger(__name__)
+
+def on_failure_callback(context):
+    """
+    Callback для обработки ошибок в DAG
+    
+    Args:
+        context: Контекст выполнения DAG
+    """
+    task_instance = context['task_instance']
+    error = context.get('exception')
+    
+    logger.error(f"❌ Ошибка в DAG {context['dag'].dag_id}: {str(error)}")
+    
+    if airflow_config.email_on_failure:
+        send_failure_notification(
+            task_instance=task_instance,
+            error=error,
+            context=context,
+            email_to=airflow_config.alert_email
+        )
 
 default_args = {
-    "owner": "airflow",
+    "owner": airflow_config.owner,
     "depends_on_past": False,
-    "retries": 1,
-    "retry_delay": timedelta(minutes=1),
+    "start_date": datetime(2024, 1, 1),
+    "retries": airflow_config.retries,
+    "retry_delay": timedelta(minutes=airflow_config.retry_delay_minutes),
+    "email_on_failure": airflow_config.email_on_failure,
+    "email_on_retry": airflow_config.email_on_retry,
+    "on_failure_callback": on_failure_callback,
 }
 
 with DAG(
-    dag_id="full_training_pipeline",
+    dag_id="full_pipeline",
     default_args=default_args,
-    description="Full training pipeline: train -> select best -> register",
-    schedule_interval=None,
-    start_date=days_ago(1),
+    schedule_interval="@daily",
     catchup=False,
+    tags=["ml", "wine"],
+    description="Полный пайплайн обучения и регистрации моделей",
 ) as dag:
-
-    trigger_train = TriggerDagRunOperator(
-        task_id="trigger_train_ml_models",
+    train_models = TriggerDagRunOperator(
+        task_id="train_models",
         trigger_dag_id="train_ml_models",
         wait_for_completion=True,
+        poke_interval=60,
+        timeout=3600,
     )
 
-    trigger_register = TriggerDagRunOperator(
-        task_id="trigger_register_best_model",
+    register_best_model = TriggerDagRunOperator(
+        task_id="register_best_model",
         trigger_dag_id="register_best_model_from_mlflow",
         wait_for_completion=True,
+        poke_interval=60,
+        timeout=3600,
     )
 
-    trigger_train >> trigger_register
+    train_models >> register_best_model

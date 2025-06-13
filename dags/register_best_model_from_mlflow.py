@@ -1,99 +1,110 @@
-
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import mlflow
-from mlflow.tracking import MlflowClient
+import logging
 import os
 import shutil
-import subprocess
+from typing import Dict, Any
 
-def select_best_model_from_mlflow():
-    print("🔄 Using updated DAG version — logging active.")
+from utils.config import mlflow_config, dvc_config, airflow_config
+from utils.notifications import send_failure_notification
 
-    tracking_uri = "file:/app/mlruns"
-    artifacts_dir = "/app/artifacts"
-    best_model_path = os.path.join(artifacts_dir, "best_model.pkl")
+logger = logging.getLogger(__name__)
 
-    os.makedirs(artifacts_dir, exist_ok=True)
-    mlflow.set_tracking_uri(tracking_uri)
-    client = MlflowClient()
-
-    experiment = client.get_experiment_by_name("wine-quality")
-    if not experiment:
-        raise ValueError("Эксперимент 'wine-quality' не найден")
-
-    runs = client.search_runs(
-        experiment_ids=[experiment.experiment_id],
-        order_by=["metrics.f1_score DESC"],
-        max_results=1,
-    )
-
-    if not runs:
-        raise ValueError("Нет завершённых запусков для выбора модели")
-
-    best_run = runs[0]
-    print(f"🏆 Лучшая модель: run_id={best_run.info.run_id}, f1_score={best_run.data.metrics['f1_score']}")
-
-    artifact_root = best_run.info.artifact_uri.replace("file:/", "")
-
-    model_path = None
-    for root, dirs, files in os.walk(artifact_root):
-        for file in files:
-            if file.endswith(".pkl"):
-                model_path = os.path.join(root, file)
-                break
-        if model_path:
-            break
-
-    if not model_path or not os.path.exists(model_path):
-        raise FileNotFoundError("Не найден .pkl файл в артефактах run-а")
-
-    shutil.copy(model_path, best_model_path)
-    print(f"✅ Модель скопирована: {best_model_path}")
-
-    subprocess.run(["dvc", "add", best_model_path], cwd="/app", check=True)
-    subprocess.run(["git", "add", f"{best_model_path}.dvc", ".gitignore"], cwd="/app", check=True)
-
-    status = subprocess.run(["git", "status", "--porcelain"], cwd="/app", capture_output=True, text=True)
-    if status.stdout.strip():
-        print("📌 Выполняем git commit...")
-        commit = subprocess.run(
-            ["git", "commit", "-m", "Register best model from MLflow"],
-            cwd="/app",
-            capture_output=True,
-            text=True
+def register_best_model(**context) -> None:
+    """
+    Находит лучшую модель в MLflow и регистрирует её
+    
+    Args:
+        **context: Контекст выполнения задачи Airflow
+        
+    Raises:
+        RuntimeError: При ошибках в процессе регистрации модели
+    """
+    try:
+        mlflow.set_tracking_uri(mlflow_config.tracking_uri)
+        experiment = mlflow.get_experiment_by_name(mlflow_config.experiment_name)
+        
+        if experiment is None:
+            raise RuntimeError(f"Эксперимент {mlflow_config.experiment_name} не найден")
+            
+        runs = mlflow.search_runs(
+            experiment_ids=[experiment.experiment_id],
+            filter_string="metrics.f1_score IS NOT NULL",
+            order_by=["metrics.f1_score DESC"]
         )
-        print("🔧 Git commit stdout:", commit.stdout)
-        print("🔧 Git commit stderr:", commit.stderr)
-
-        if commit.returncode != 0:
-            print("⚠️ Git commit не удался.")
-    else:
-        print("ℹ️ Git чист — нечего коммитить.")    
-
-    subprocess.run(["dvc", "push"], cwd="/app", check=True)
-    print("🚀 Модель добавлена в DVC и запушена")
+        
+        if runs.empty:
+            raise RuntimeError("Не найдены запуски с метрикой f1_score")
+            
+        best_run = runs.iloc[0]
+        best_run_id = best_run["run_id"]
+        best_f1_score = best_run["metrics.f1_score"]
+        
+        logger.info(f"🏆 Лучшая модель: run_id={best_run_id}, f1_score={best_f1_score}")
+        
+        # Копируем модель в директорию для лучших моделей
+        os.makedirs(os.path.dirname(dvc_config.best_model_path), exist_ok=True)
+        
+        # Находим путь к модели в артефактах
+        artifacts = mlflow.artifacts.list_artifacts(best_run_id)
+        model_artifact = next((a for a in artifacts if a.path.endswith(".pkl")), None)
+        
+        if model_artifact is None:
+            raise RuntimeError("Модель не найдена в артефактах")
+            
+        # Скачиваем модель
+        local_path = mlflow.artifacts.download_artifacts(
+            run_id=best_run_id,
+            artifact_path=model_artifact.path
+        )
+        
+        # Копируем в нужную директорию
+        shutil.copy2(local_path, dvc_config.best_model_path)
+        logger.info(f"✅ Модель скопирована в {dvc_config.best_model_path}")
+        
+        # Регистрируем модель в MLflow Model Registry
+        model_uri = f"runs:/{best_run_id}/{model_artifact.path}"
+        model_details = mlflow.register_model(
+            model_uri=model_uri,
+            name="wine-quality-model"
+        )
+        
+        logger.info(f"✅ Модель зарегистрирована в MLflow Model Registry: {model_details.name}")
+        
+    except Exception as e:
+        logger.error(f"❌ Ошибка при регистрации лучшей модели: {str(e)}")
+        if airflow_config.email_on_failure:
+            send_failure_notification(
+                task_instance=context['task_instance'],
+                error=e,
+                context=context,
+                email_to=airflow_config.alert_email
+            )
+        raise RuntimeError(f"Не удалось зарегистрировать лучшую модель: {str(e)}")
 
 default_args = {
-    "owner": "airflow",
+    "owner": airflow_config.owner,
     "depends_on_past": False,
     "start_date": datetime(2024, 1, 1),
-    "retries": 1,
-    "retry_delay": timedelta(minutes=1),
+    "retries": airflow_config.retries,
+    "retry_delay": timedelta(minutes=airflow_config.retry_delay_minutes),
+    "email_on_failure": airflow_config.email_on_failure,
+    "email_on_retry": airflow_config.email_on_retry,
 }
 
 with DAG(
     dag_id="register_best_model_from_mlflow",
     default_args=default_args,
-    schedule_interval=None,
+    schedule_interval="@daily",
     catchup=False,
-    tags=["ml", "mlflow", "register"],
+    tags=["ml", "wine"],
+    description="Регистрация лучшей модели из MLflow в Model Registry",
 ) as dag:
-
     register_task = PythonOperator(
-        task_id="select_best_model_from_mlflow",
-        python_callable=select_best_model_from_mlflow,
+        task_id="register_best_model",
+        python_callable=register_best_model,
     )
 
     register_task
