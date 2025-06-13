@@ -1,10 +1,10 @@
-
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 import joblib
 import pandas as pd
 import subprocess
 from pathlib import Path
+import uvicorn
 
 app = FastAPI(title="Wine Quality Predictor")
 
@@ -87,3 +87,6 @@ def predict(features: WineFeatures):
     df.rename(columns=feature_mapping, inplace=True)
     prediction = model.predict(df)[0]
     return {"predicted_quality": float(prediction)}
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
